@@ -1,0 +1,188 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 'Fauna One';
+  color: rgb(0,0,0);
+}
+
+.element-2 p {
+  margin-bottom: 1em;
+}
+
+.container {
+  float: left;
+  clear: both;
+  width: 634px;
+  margin: 50px 0 0 23.58073%;
+}
+
+.container .text {
+  font-weight: 400;
+  color: rgb(0,0,0);
+}
+
+.element {
+  float: left;
+  width: 100%;
+  background-color: rgba(40, 96, 58, 0.78);
+}
+
+.element .text {
+  float: left;
+  color: rgb(255, 255, 255);
+}
+
+.text {
+  display: inline-block;
+  line-height: 1.38;
+}
+
+._button {
+  display: block;
+  float: left;
+  clear: both;
+  width: 17.192429022%;
+  height: 29px;
+  margin: 6px 0 0 82.778%;
+  border: 2px solid rgba(40, 96, 58, 0.78);
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgba(40, 96, 58, 0.78);
+}
+
+._input {
+  display: block;
+  position: relative;
+  padding: 0 10px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.813em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.element-1 {
+  height: 200px;
+}
+
+.element-2 {
+  clear: both;
+  height: 100px;
+  margin-top: 267px;
+}
+
+.text-1 {
+  margin: 85px 0 0 10.75%;
+  font-size: 3.125em;
+}
+
+.text-2 {
+  float: left;
+  font-size: 1.75em;
+}
+
+.text-3 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 4;
+  width: 72px;
+  margin: 16px 0 0 -0.15773%;
+  font-size: 1em;
+  text-align: right;
+}
+
+.text-4 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 5;
+  width: 72px;
+  margin: 8px 0 0 -0.12323%;
+  font-size: 1em;
+  text-align: right;
+}
+
+.text-5 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 7;
+  width: 117px;
+  margin: 8px 0 0 -7.24813%;
+  font-size: 1em;
+  text-align: right;
+}
+
+.text-6 {
+  position: relative;
+  float: right;
+  clear: both;
+  z-index: 11;
+  width: 95px;
+  margin: 54px 46.36978% 0 0;
+  font-size: 1em;
+  text-align: right;
+}
+
+.text-7 {
+  position: relative;
+  float: right;
+  clear: both;
+  z-index: 10;
+  width: 95px;
+  margin: 8px 46.36978% 0 0;
+  font-size: 1em;
+  text-align: right;
+}
+
+.text-8 {
+  margin: 23px 0 0 11.58073%;
+  font-size: 0.875em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.container ._input-1 {
+  float: left;
+  z-index: 8;
+  width: 44.7949526813%;
+  height: 27px;
+  margin: 16px 0 0 1.56743%;
+}
+
+.container ._input-2 {
+  float: left;
+  z-index: 9;
+  width: 44.7949526813%;
+  height: 27px;
+  margin: 8px 0 0 1.528%;
+}
+
+.container ._input-3 {
+  float: left;
+  z-index: 11;
+  width: 86.2776025236%;
+  height: 245px;
+  margin: 8px 0 0 1.56004%;
+}
+
+.container ._input-4 {
+  float: right;
+  clear: both;
+  z-index: 13;
+  width: 43.8485804416%;
+  height: 27px;
+  margin: -22px 0.93898% 0 0;
+}
+
+.container ._input-5 {
+  float: right;
+  clear: both;
+  z-index: 12;
+  width: 43.8485804416%;
+  height: 27px;
+  margin: -22px 0.94144% 0 0;
+}

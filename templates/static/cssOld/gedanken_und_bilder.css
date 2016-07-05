@@ -1,0 +1,125 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 0.875em/1.38 'Fauna One';
+  color: rgb(77, 77, 77);
+}
+
+.element-2 p,
+.text-6 p {
+  margin-bottom: 1em;
+}
+
+.element {
+  float: left;
+  width: 100%;
+  background-color: rgba(40, 96, 58, 0.78);
+}
+
+.image {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 7;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+}
+
+.image:hover {
+  box-shadow: 0 2px 5px 8px rgba(26, 94, 29, 0.5);
+}
+
+.text {
+  display: inline-block;
+  float: left;
+  line-height: 1.38;
+}
+
+.container-1 {
+  float: left;
+  clear: both;
+  width: 52.8333333333%;
+  margin: 50px 0 0 23.59896%;
+}
+
+.container-2 {
+  float: left;
+  clear: both;
+  width: 96.8454258675%;
+  min-height: 8px;
+  margin-left: 3.125%;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: rgba(40, 96, 58, 0.29);
+}
+
+.container-3 {
+  position: relative;
+  float: right;
+  z-index: 10;
+  width: 48.3050847457%;
+}
+
+.element-1 {
+  height: 200px;
+}
+
+.element-2 {
+  position: relative;
+  clear: both;
+  height: 100px;
+  margin-top: 51px;
+}
+
+.text-1 {
+  margin: 85px 0 0 10.75%;
+  font-size: 2.857em;
+  color: rgb(255, 255, 255);
+}
+
+.text-2 {
+  clear: both;
+  margin-left: 11.58333%;
+  font-size: 1.143em;
+  font-weight: 400;
+  color: rgb(193, 193, 193);
+}
+
+.text-3 {
+  font-size: 2em;
+  font-weight: 400;
+  color: rgb(0,0,0);
+}
+
+.text-4 {
+  width: 100%;
+  font-size: 1.429em;
+  font-weight: 400;
+  text-align: right;
+  color: rgb(0,0,0);
+}
+
+.text-5 {
+  clear: both;
+  width: 100%;
+  font-size: 1.143em;
+  font-weight: 400;
+  text-align: right;
+  color: rgb(0,0,0);
+}
+
+.text-6 {
+  clear: both;
+  width: 98.4949832775%;
+  margin: 20px 0 0 0.2224576271%;
+  font-size: 1em;
+  color: rgb(77, 77, 77);
+}
+
+.text-7 {
+  margin: 23px 0 0 11.58073%;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}

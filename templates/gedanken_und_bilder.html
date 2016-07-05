@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>Gedanken und Bilder aus Deutschland</title>
+  <script type="text/javascript"
+      src="http://slideshow.triptracker.net/slide.js"></script>
+  <script type="text/javascript">
+    var viewers = [];
+    {% for post in posts %}
+        viewers[viewers.length] = new PhotoViewer();
+        var path = '/templates/static/images/{{post.imageFolder}}/';
+        {% for name in post.imageNames %}
+            viewers[viewers.length-1].add(path.concat('{{name}}'));
+        {% endfor %}
+        viewers[viewers.length-1].enablePhotoFading();
+        viewers[viewers.length-1].disableEmailLink();
+        viewers[viewers.length-1].disablePhotoLink();
+        viewers[viewers.length-1].enableToolbarAnimator();
+        viewers[viewers.length-1].setBorderWidth(0);
+        viewers[viewers.length-1].disablePanning();
+    {% endfor %}
+  </script>
+  <link href="http://fonts.googleapis.com/css?family=Fauna+One:400,400" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/templates/static/css/standardize.css">
+  <link rel="stylesheet" href="/templates/static/css/gedanken_und_bilder-grid.css">
+  <link rel="stylesheet" href="/templates/static/css/gedanken_und_bilder.css">
+</head>
+
+<body class="body gedanken_und_bilder clearfix">
+    {% for post in posts %}
+        {% if loop.index0 == 0 %}
+            <img class="image image-1" src="/templates/static/images/{{post.imageFolder}}/{{post.imageNames[0]}}" data-rimage data-src="/templates/static/images/{{post.imageFolder}}/{{post.imageNames[0]}}">
+        {% endif %}
+    {% endfor %}
+  <div class="element element-1 clearfix js-header">
+      <p class="text text-1 js-name"><a style="color:#ffffff;" href="/gedanken_und_bilder">Gedanken und Bilder aus Deutschland</a></p>
+      <p class="text text-2">Riley Lundquist    </p>
+  </div>
+  {% for post in posts %}
+      <div class="container container-1 clearfix js-experience-section">
+        <p class="text text-3 js-experience-title">{{post.name}}</p>
+        <div class="container container-2 clearfix js-experience-element">
+          <a href="javascript:void(viewers[{{loop.index0}}].show(0))"><img class="image" src="/templates/static/images/{{post.imageFolder}}/{{post.imageNames[0]}}"></a>
+          <div class="container container-3 clearfix js-info">
+            <p class="text text-4 js-organization">{{post.location}}        </p>
+            <p class="text text-5 js-dates">{{post.created.strftime('%d. %B %Y')}}        </p>
+          </div>
+          <div class="text text-6 js-description" style="white-space:pre-wrap;">{{post.description}}</div>
+        </div>
+  </div>
+  {% endfor %}
+  <div class="element element-2 clearfix js-footer">
+    <div class="text text-7 js-footer-name">
+      <p>2014</p>
+      <p>Riley Lundquist</p>
+</div>
+  </div>
+
+  <script src="/templates/static/js/jquery-min.js"></script>
+  <script src="/templates/static/js/rimages.js"></script>
+</body>
+</html>

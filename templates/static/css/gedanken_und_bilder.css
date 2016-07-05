@@ -1,0 +1,144 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 0.875em/1.38 'Fauna One';
+  color: rgb(255, 255, 255);
+}
+
+.element-2 p,
+.text-6 p {
+  margin-bottom: 1em;
+}
+
+.container .image {
+  position: relative;
+  float: left;
+  z-index: 8;
+  width: 50%;
+  overflow: hidden;
+}
+
+.container .image:hover {
+  box-shadow: 0 2px 5px 8px rgba(26, 94, 29, 0.5);
+}
+
+.element {
+  position: relative;
+  float: left;
+  width: 100%;
+  background-color: rgba(40, 96, 58, 0.8);
+}
+
+.image {
+  display: block;
+  height: auto;
+}
+
+.text {
+  display: inline-block;
+  float: left;
+  line-height: 1.38;
+}
+
+.container-1 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 13;
+  width: 52.8333333333%;
+  margin: 50px 0 0 22%;
+}
+
+.container-2 {
+  float: left;
+  clear: both;
+  width: 96.8454258675%;
+  min-height: 8px;
+  margin-left: 3.125%;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: rgba(40, 96, 58, 0.6);
+}
+
+.container-3 {
+  position: relative;
+  float: right;
+  z-index: 11;
+  width: 48.3050847457%;
+}
+
+.element-1 {
+  z-index: 1;
+  height: 200px;
+}
+
+.element-2 {
+  clear: both;
+  z-index: 7;
+  height: 100px;
+  margin-top: 54px;
+}
+
+.image-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.8;
+  overflow: scroll;
+}
+
+.text-1 {
+  margin: 85px 0 0 10.75%;
+  font-size: 2.857em;
+  color: rgb(255, 255, 255);
+}
+
+.text-2 {
+  clear: both;
+  margin-left: 11.58073%;
+  font-size: 1.143em;
+  font-weight: 400;
+  color: rgb(193, 193, 193);
+}
+
+.text-3 {
+  font-size: 2em;
+  font-weight: 400;
+  color: rgb(0,0,0);
+}
+
+.text-4 {
+  width: 100%;
+  font-size: 1.429em;
+  font-weight: 400;
+  text-align: right;
+  color: rgb(0,0,0);
+}
+
+.text-5 {
+  clear: both;
+  width: 100%;
+  font-size: 1.143em;
+  font-weight: 400;
+  text-align: right;
+  color: rgb(0,0,0);
+}
+
+.text-6 {
+  clear: both;
+  width: 98.4949832775%;
+  margin: 20px 0 0 0.22246%;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text-7 {
+  margin: 23px 0 0 11.58073%;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}

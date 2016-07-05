@@ -1,0 +1,189 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 0.875em/1.38 'Fauna One';
+  color: rgb(255, 255, 255);
+}
+
+.element-2 p {
+  margin-bottom: 1em;
+}
+
+.container {
+  float: left;
+}
+
+.container .text {
+  font-weight: 400;
+  color: rgb(0,0,0);
+}
+
+.element {
+  float: left;
+  width: 100%;
+  background-color: rgba(40, 96, 58, 0.78);
+}
+
+.element .container {
+  width: 129px;
+  height: 35px;
+  margin: 32px 0 0 53.58203%;
+}
+
+.element .text {
+  color: rgb(255, 255, 255);
+}
+
+.image {
+  display: block;
+  float: left;
+  height: auto;
+  overflow: hidden;
+}
+
+.text {
+  display: inline-block;
+  float: left;
+  line-height: 1.38;
+}
+
+._button {
+  display: block;
+  float: left;
+  clear: both;
+  width: 17.192429022%;
+  height: 29px;
+  margin: 5px 0 0 82.80757%;
+  border: 2px solid rgba(40, 96, 58, 0.78);
+  border-radius: 5px;
+  font-size: 1.143em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgba(40, 96, 58, 0.78);
+}
+
+._input {
+  display: block;
+  position: relative;
+  float: left;
+  margin-left: 1.26183%;
+  padding: 0 10px;
+  background-color: rgb(242, 242, 242);
+  font-size: 0.929em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.container-1 {
+  clear: both;
+  width: 634px;
+  height: 439px;
+  margin: 50px 0 0 23.59896%;
+}
+
+.element-1 {
+  height: 200px;
+}
+
+.element-2 {
+  clear: both;
+  height: 100px;
+  margin-top: 294px;
+}
+
+.image-1 {
+  width: 34px;
+  margin-top: 1px;
+}
+
+.image-2 {
+  width: 42px;
+  margin-left: 7.75194%;
+}
+
+.image-3 {
+  width: 34px;
+  margin: 1px 0 0 6.95252%;
+}
+
+.text-1 {
+  margin: 85px 0 0 10.75%;
+  font-size: 3.571em;
+}
+
+.text-2 {
+  margin-top: -22px;
+  font-size: 1.143em;
+}
+
+.text-3 {
+  font-size: 2em;
+}
+
+.text-4 {
+  position: relative;
+  clear: both;
+  z-index: 4;
+  margin: 16px 0 0 4.57167%;
+  font-size: 1.143em;
+}
+
+.text-5 {
+  position: relative;
+  clear: both;
+  z-index: 5;
+  margin: 8px 0 0 4.57167%;
+  font-size: 1.143em;
+}
+
+.text-6 {
+  position: relative;
+  clear: both;
+  z-index: 6;
+  margin: 8px 0 0 2.52366%;
+  font-size: 1.143em;
+}
+
+.text-7 {
+  position: relative;
+  clear: both;
+  z-index: 7;
+  margin: 9px 0 0 0.78618%;
+  font-size: 1.143em;
+}
+
+.text-8 {
+  margin: 23px 0 0 11.58073%;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.container ._input-1 {
+  z-index: 8;
+  width: 44.7949526813%;
+  height: 27px;
+  margin-top: 16px;
+}
+
+.container ._input-2 {
+  z-index: 9;
+  width: 44.7949526813%;
+  height: 27px;
+  margin-top: 8px;
+}
+
+.container ._input-3 {
+  z-index: 10;
+  width: 86.2776025236%;
+  height: 27px;
+  margin-top: 8px;
+}
+
+.container ._input-4 {
+  z-index: 11;
+  width: 86.2776025236%;
+  height: 245px;
+  margin-top: 9px;
+}

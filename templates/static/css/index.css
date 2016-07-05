@@ -1,0 +1,202 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 0.875em/1.38 'Fauna One';
+  color: rgb(77, 77, 77);
+}
+
+.container-18 p,
+.element-2 p,
+.text-10 p,
+.text-15 p,
+.text-19 p,
+.text-24 p,
+.text-28 p,
+.text-6 p {
+  margin-bottom: 1em;
+}
+
+.container {
+  float: left;
+}
+
+.element {
+  float: left;
+  width: 100%;
+  background-color: rgba(40, 96, 58, 0.78);
+}
+
+.element .container {
+  width: 129px;
+  height: 35px;
+  margin: 32px 0 0 53.58203%;
+}
+
+.element .text {
+  color: rgb(255, 255, 255);
+}
+
+.image {
+  display: block;
+  float: left;
+  height: auto;
+  overflow: hidden;
+}
+
+.text {
+  display: inline-block;
+  float: left;
+  line-height: 1.38;
+}
+
+.container-1 {
+  clear: both;
+  width: 634px;
+  margin: 50px 0 0 23.58073%;
+}
+
+.container-10,
+.container-15 {
+  clear: both;
+  width: 96.8454258675%;
+  min-height: 8px;
+  margin: 20px 0 0 3.15211%;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: rgba(40, 96, 58, 0.29);
+}
+
+.container-11,
+.container-14,
+.container-16,
+.container-2,
+.container-4,
+.container-6,
+.container-9 {
+  width: 100%;
+}
+
+.container-12,
+.container-17,
+.container-7 {
+  clear: both;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.container-13,
+.container-18,
+.container-3,
+.container-8 {
+  clear: both;
+  width: 96.8454258675%;
+  min-height: 8px;
+  margin: 18px 0 0 3.15211%;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: rgba(40, 96, 58, 0.29);
+}
+
+.container-5 {
+  clear: both;
+  width: 96.8454258675%;
+  min-height: 8px;
+  margin: 17px 0 0 3.15211%;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: rgba(40, 96, 58, 0.29);
+}
+
+.element-1 {
+  height: 200px;
+}
+
+.element-2 {
+  clear: both;
+  height: 100px;
+  margin-top: 50px;
+}
+
+.image-1 {
+  width: 34px;
+  margin-top: 1px;
+}
+
+.image-2 {
+  width: 42px;
+  margin-left: 7.75194%;
+}
+
+.image-3 {
+  width: 34px;
+  margin: 1px 0 0 6.95252%;
+}
+
+.text-1 {
+  margin: 85px 0 0 10.75%;
+  font-size: 3.571em;
+}
+
+.text-12,
+.text-16,
+.text-21,
+.text-25,
+.text-3,
+.text-7 {
+  font-size: 1.143em;
+  font-weight: 400;
+  color: rgb(0,0,0);
+}
+
+.text-13,
+.text-14,
+.text-17,
+.text-18,
+.text-22,
+.text-23,
+.text-26,
+.text-27,
+.text-4,
+.text-5,
+.text-8,
+.text-9 {
+  clear: both;
+  font-size: 1.143em;
+  font-weight: 400;
+  color: rgb(0,0,0);
+}
+
+.text-10,
+.text-15,
+.text-19,
+.text-24,
+.text-28,
+.text-6 {
+  clear: both;
+  width: 98.4949832775%;
+  margin: 8px 0 0 3.00481%;
+  font-size: 1em;
+  color: rgb(77, 77, 77);
+}
+
+.text-11,
+.text-2,
+.text-20,
+.text-29 {
+  font-size: 2em;
+  font-weight: 400;
+  color: rgb(0,0,0);
+}
+
+.text-30 {
+  width: 98.4949832775%;
+  margin-left: 3.00481%;
+  font-size: 1em;
+  color: rgb(77, 77, 77);
+}
+
+.text-31 {
+  margin: 23px 0 0 11.58073%;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
